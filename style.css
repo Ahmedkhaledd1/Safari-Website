@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&family=Poppins:wght@100;200;400;600;700&family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.homeBody{
+    background-image: linear-gradient(rgba(4,2,10,0.7),rgba(4,2,10,0.7)),url(assets/home.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    background-image: linear-gradient(#0a0d14,transparent);
+
+}
+header h2{
+    margin: 30px;
+    font-style: italic;
+    font-size: 600;
+    
+    font-size: 30px;
+    cursor: pointer;
+   
+}
+header h2 a{
+    color: white;
+    text-decoration: none;
+
+}
+nav ul {
+    display: flex;
+}
+nav ul {
+    list-style: none;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li ul.registration-sub{
+    display: none;
+
+
+}
+
+nav ul li{
+    position: relative;
+    padding: 30px;
+    
+   
+    
+}
+nav ul li:hover ul.registration-sub{
+    display: block;
+    position: absolute;
+    left: 10px;
+}
+
+nav ul li  ul.registration-sub li{
+    padding: 20px;
+}
+
+
+
+
+main{
+    padding-top: 170px;
+    padding-left: 50px;
+    font-size: 28px;
+    color: white;
+    
+}
+main h5{
+    margin-top: 20px;
+
+}
+main button{
+    padding: 12px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    width: 120px;
+    
+    background-color:chocolate ;
+    border: none;
+    color: white;
+    transition: 0.3s;
+    font-weight: 600;
+    
+
+}
+
+
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    
+
+}
+footer div ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+footer ul li a:hover{
+    color: chocolate;
+}
+footer div h4{
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+
+}
+footer div p{
+    color: white;
+    padding: 10px;
+}
+footer div i{
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.bookingSub {
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 100%;
+    min-width: 120px;
+  }
+
+  .registration-sub li:hover .bookingSub {
+    display: block;
+  }
+            /*-----------------Sign Up page------------------------------------------------------*/
+
+
+
+
+.sign-up{
+    background-image: linear-gradient(rgba(4,2,10,0.7),rgba(4,2,10,0.7)),url(assets/IMG2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+
+
+.sign-up  section{
+
+    text-align: center;
+    height: 60%;
+    border: 1px solid white;
+    width: 400px;
+    background-color: white;
+    height: 400px;
+    margin: 125px auto;
+
+
+}
+.sign-up   section h1{
+    color: #d2691e;
+    padding: 30px;
+    font-size: 30px;
+}
+.sign-up  section form input{
+   
+   
+    width: 190px;
+    border: none;
+    background: transparent;
+    border-bottom: black 1px solid;
+    height: 30px;
+    outline: 0;
+    margin-left: 15px;
+    
+}
+.sign-up  section form div{
+    margin: 20px;
+}
+
+.signup   section form{
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+
+}
+.sign-up section form  button{
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    width: 200px;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+
+}
+.sign-up h2{
+    padding: 30px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+/*-------------------------Login page----------------------------*/
+
+.login{
+    background-image: linear-gradient(rgba(4,2,10,0.7),rgba(4,2,10,0.7)),url(assets/IMG3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+
+    
+
+}
+.login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+ 
+}
+.login .container .col1{
+    text-align: center;
+    background-color: white;
+    flex-basis: 50%;
+    height: 50%;
+
+}
+.login .container .col2 {
+    height: 50%;
+    
+    background-color: black;
+    flex-basis: 50%;
+    text-align: center;
+}
+.login .container .col2 h2{
+    margin-top: 100px;
+    color: chocolate;
+    font-size: 40px;
+    margin-bottom: 100ox;
+}
+.login .container .col1 h2{
+    padding: 30px;
+    color: chocolate;
+}
+.login .container .col1 form{
+    padding: 40px;
+}
+.login .container .col1 form div input{
+    outline: 0;
+    border: none;
+    border-bottom: 1px chocolate solid;
+    background: transparent;
+    font-size: 15px;
+
+}
+.login .container .col1 form div {
+    padding: 15px;
+    
+}
+.login .col1 form div button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+} 
+.login .col1 form div button:hover{
+    background-color:rgb(175, 83, 17) ;
+}
+
+.login .col2 div a{
+    text-decoration: none;
+    color: white;
+    
+    border-radius: 15px;
+    padding: 10px 40px;
+    
+
+    background-color: chocolate;
+    transition: 0.4s;
+}
+.login .col2 div a:hover{
+    background-color:rgb(175, 83, 17) ;
+}
+.login .col2 div{
+    margin-top: 140px;
+}
+.sign-up h2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.col1 form p{
+    color: chocolate;
+}
+
+/*-----------------------------------About-Us---------------------------*/
+
+.about-us{
+    background-color: rgb(11, 11, 11);
+    
+    height: 160vh;
+    position: relative;
+}
+.about-us .container{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-us .container .col1{
+    flex-basis: 50%;
+
+}
+.about-us .col1 h2 ,.col1 p{
+    color: white;
+    
+}
+.about-us .col1 h2{
+    padding: 20px;
+    font-size: 35px;
+
+}
+.about-us .col1 p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 18px;
+}
+.about-us .col1 .about-flex{
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: #1e1e1e;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 40px;
+}
+.about-card{
+    flex: 1 1 150px;
+    border-right: 2px solid #0a0d14;
+    padding: 20px;
+
+}
+.about-card :last-child{
+    border: none;
+}
+.about-card h4{
+    font-size: 25px;
+}
+.about-us .col1 button{
+    
+        padding: 12px;
+        margin-top: 30px;
+        cursor: pointer;
+        
+        
+        width: 120px;
+        
+        background-color:chocolate ;
+        border: none;
+        color: white;
+        transition: 0.5s;
+    
+    
+}
+
+.about-us .col2{
+    flex-basis: 40%;
+    margin: 30px 40px;
+}
+.about-us .col2 img{
+    width: 100%;
+    
+}
+
+/*------------------------------Contact---------------------*/
+
+.Contact{
+    height: 120vh;
+    background-color: rgb(19, 19, 19);
+    position: relative;
+
+}
+.Contact section{
+    display: flex;
+    align-items: center;
+    margin: 120px 0px;
+    color: white;
+
+
+}
+.Contact section .contact-col{
+    flex-basis: 30%;
+    margin: 20px;
+    padding: 40px;
+}
+.contact-card{
+    border: 1px rgba(255, 255, 255, 0.493) solid;
+    display: grid;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    margin: auto;
+    place-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Contact section h4{
+    font-size: 30px;
+    margin: 15px;
+    font-weight: 600;
+
+}
+.contact-card span{
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+
+/*---------------------------Discover----------------------------*/
+
+.Discover{
+    height: 250vh;
+    background-color: rgb(19, 19, 19);
+    position: relative;
+    
+}
+.Discover section{
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+
+}
+.Discover section h2{
+    font-size: 30px;
+}
+
+.Discover section p{
+    padding: 20px;
+    font-size: 18px;
+}
+.discover-row{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.discover-row .discover-card{
+    flex-basis: 32%;
+    margin: 30px 20px;
+    background: transparent;
+
+}
+.discover-card img{
+    width: 100%;
+    transition: 0.3s;
+
+}
+
+.discover-card-content button{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+
+
+.discover-card-content h4{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.Discover details{
+    color: white;
+    padding: 20px;
+    
+}
+.Discover details li{
+    margin: 15px;
+}
+.Discover li h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Discover ul{
+    list-style: none;
+}
+/*--------------------------Gallery-----------------------------*/
+
+
+.Gallery{
+    height: 200vh;
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    color: white;
+    position: relative;
+    
+
+}
+.gallery-container{
+        padding: 5rem 1rem;
+}
+.gallery-grid{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+}
+.gallery-card{
+    position: relative;
+    overflow: hidden;
+}
+.gallery-card img{
+    width: 100%;
+    height: 250px;
+}
+.gallery-content{
+    position: absolute;
+    left: 50%;
+    bottom: -8rem;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 2rem 1rem;
+    transition: 0.3s;
+    background-image: (to top,rgb(19, 19, 19),transparent);
+    
+
+}
+.gallery-content h4{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.gallery-container h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+/*-----------------------------Booking------------------*/
+
+.Booking{
+    background-image: linear-gradient(rgba(4,2,10,0.7),rgba(4,2,10,0.7)),url(assets/IMG5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+    position: relative;
+
+}
+.Booking .content{
+    color: white;
+    margin-top: 200px;
+    padding: 20px;
+}
+.Booking h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.Booking p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.Booking button{
+    padding: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    width: 120px;
+    
+    background-color:chocolate ;
+    border: none;
+    color: white;
+    transition: 0.4s;
+
+
+}
+.Booking button:hover{
+    transform: scale(1.1);
+}
+
+.video-container .row {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.video-container .row .col{
+    flex-basis: 30%;
+    margin: 10px;
+}
+.video-container h1{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.video-container .row .col h3{
+    margin-top: 20px;
+}
+
+
+/*------------------------------Credit card------------------------------*/
+
+
+.CreditPage{
+    height: 150vh;
+    background-image: linear-gradient(rgba(4,2,10,0.7),rgba(4,2,10,0.7)),url(assets/claudio-schwarz-TScGhJM716g-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.CreditPage .content{
+    width: 95%;
+    margin: 210px auto;
+    color: white;
+    
+    
+}
+.CreditPage .content h1 {
+    font-size: 60px;
+    padding: 10px;
+
+}
+.CreditPage .content p{
+    width: 500px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    padding: 10px;
+    font-weight: 600;
+}
+.CreditPage .content button{
+
+    padding: 12px;
+    margin: 30px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    
+    width: 120px;
+    
+    background-color:chocolate ;
+    border: none;
+    color: white;
+    transition: 0.3s;
+    
+}
+.CreditPage .content button:hover{
+    transform: scale(1.1);
+}

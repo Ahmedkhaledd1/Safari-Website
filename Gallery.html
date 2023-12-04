@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Safari</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body class="Gallery">
+        <header>
+            <h2><a href="index.html">Safari</a></h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Discover.html">Discover</a></li>
+                    <li><a href="">Registration</a>
+                    <ul class="registration-sub">
+                        <li><a href="Sign up.html">Sign up</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="Booking.html" >Booking</a>
+                        <ul class="bookingSub"> 
+                            <li><a href="Credit.html">CreditCard</a></li>
+                        </ul>
+                        </li>
+                    </ul></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <div class="gallery-container">
+            <h2>Gallery photos</h2>
+            <p >
+            Explore the most beautiful places in the world.
+            </p>
+            <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="assets/Norway2.jpg" alt="gallery" />
+                <div class="gallery-content">
+                <h4>Northern Lights</h4>
+                <p>Norway</p>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <img src="assets/Krabi.jpg" alt="gallery" />
+                <div class="gallery-content">
+                <h4>Krabi</h4>
+                <p>Thailand</p>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <img src="assets/Bali.jpg" alt="gallery" />
+                <div class="gallery-content">
+                <h4>Bali</h4>
+                <p>Indonesia</p>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <img src="assets/Tokyo.jpg" alt="gallery" />
+                <div class="gallery-content">
+                    <h4>Tokyo</h4>
+                    <p>Japan</p>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <img src="assets/TajMahal.jpg" alt="gallery" />
+                <div class="gallery-content">
+                    <h4>Taj Mahal</h4>
+                    <p>India</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <h1>Videos</h1>
+            <div class="row">
+                <div class="col">
+                    <video src="assets/Pyramids.mp4" controls width="400px"></video>
+                    <h3>Pyramids of giza</h3>
+
+                </div>
+                <div class="col">
+                    <video src="assets/London.mp4" controls width="400px"></video>
+                    <h3>London</h3>
+                </div>
+                <div class="col">
+                    <video src="assets/Brazil.mp4" controls width="400px"></video>
+                    <h3>Brazil</h3>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <div>
+                <h4>Safari</h4>
+                <p>Cheap Romantic Vacations . Many people feel that there is limited <br>
+                    amount of abundance, or chance to succceed in life.
+
+                </p>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-x-twitter"  style="color: #ffffff;"></i>
+                
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Discover.html">Discover</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+            changeLinkColor();
+            });
+
+            document.addEventListener("DOMContentLoaded", function() {
+    applyGalleryContentStyle();
+    });
+        </script>
+    </body>
+</html>

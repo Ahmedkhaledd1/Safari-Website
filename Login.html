@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Safari</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/66596213c4.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body class="login">
+        <header>
+            <h2><a href="index.html">Safari</a></h2>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Discover.html">Discover</a></li>
+                    <li><a href="">Registration</a>
+                    <ul class="registration-sub">
+                        <li><a href="Sign up.html">Sign up</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="Booking.html" >Booking</a>
+                        <ul class="bookingSub"> 
+                            <li><a href="Credit.html">CreditCard</a></li>
+                        </ul>
+                        </li>
+                    </ul></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="container">
+
+            <div class="col1">
+                <h2>Login</h2>
+                <form action="" method="post" onsubmit="return validateForm()">
+                    <div>
+                        <i class="fa-solid fa-envelope" style="color: rgb(202, 81, 1);"></i>
+                        <input type="email" name="" id="email" placeholder="E-mail" >
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock" style="color: rgb(202, 81, 1);"></i>
+                        <input type="password" name="" id="password" placeholder="password">
+                    </div>
+                    <div>
+                        <p>Forgot password? <a href="">Click here</a></p>
+                    </div>
+                    <div>
+                        <button>Login</button>
+                    </div>
+                </form>
+
+            </div>
+
+
+            <div class="col2">
+                
+                <h2>Welcome Back</h2>
+                <div>
+                    <a href="Sign up.html">Sign up</a>
+
+                </div>
+            
+            </div>
+            
+        </div>
+
+        <footer>
+            <div>
+                <h4>Safari</h4>
+                <p>Cheap Romantic Vacations . Many people feel that there is limited <br>
+                    amount of abundance, or chance to succceed in life.
+
+                </p>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-x-twitter"  style="color: #ffffff;"></i>
+                
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Discover.html">Discover</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+            changeLinkColor();
+            });
+
+        </script>
+    </body>
+</html>
