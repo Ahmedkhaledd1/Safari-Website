@@ -3,5 +3,5 @@ Discover the world's wonders with Safari Adventures, your premier destination fo
 
 # Comptability
 This website compatable with Pcs or Laptops
-
-you can visit the websu=ite through this <a href="https://ahmedkhaledd1.github.io/Safari-Website/"> link </a>
+# Visit the website
+you can visit the website through this <a href="https://ahmedkhaledd1.github.io/Safari-Website/"> link </a>
